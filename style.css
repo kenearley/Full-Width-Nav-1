@@ -1,0 +1,22 @@
+html { font-family:arial, sans-serif; font-size:12px; font-weight:bold; background:#ccc; }
+#page { width:1000px; height:500px; margin:0 auto; border:1px solid #bbb; background:#eee; }
+
+#navigation { width:1000px; background:#035793; margin:10px 0; border-top:2px solid #6B9AB8; border-bottom:2px solid #6B9AB8; }
+#navigation td { position:relative; padding:0 0 0 1px; border:none; text-align:center; background:url(http://dev.wnem.com/images2/structures/misc/nav_pipe.gif) 0 9px no-repeat; }
+#navigation td.first { background:none; }
+
+#navigation ul.topLevel { display:block; padding:0; margin:0; position:relative; }
+#navigation ul.topLevel li { list-style:none; }
+#navigation ul.topLevel li a { color:#fff; text-decoration:none; display:block; padding:8px; margin:0; }
+
+#navigation ul.topLevel li ul { display:none; padding:0; margin:0; position:absolute; z-index:1; top:28px; *top:29px; left:0; background:#fff; border:1px solid #025792;  text-align:left; }
+#navigation td.rightSide ul.topLevel li ul { left:auto; right:0px; }
+#navigation ul.topLevel li ul li a { min-width:150px; padding:6px 10px; }
+
+#navigation ul.current li a { text-decoration:underline; }
+#navigation ul.current li ul li a { text-decoration:none; }
+
+#navigation ul.selected li a { color:#025792; background:#fff; border:1px solid #025792; padding:7px; border-bottom:none; position:relative; z-index:2; }
+#navigation ul.selected li ul { display:block; }
+#navigation ul.selected li ul li a { background:#fff; border:none; }
+#navigation ul.selected li ul li a:hover { text-decoration:underline; }

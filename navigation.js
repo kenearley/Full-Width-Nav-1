@@ -1,4 +1,9 @@
-SENTIENTBIT.using('features');
+// Namespacing
+SENTIENTBIT = {
+	features: {}
+};
+
+
 SENTIENTBIT.features.Navigation = function(element) {
 	var navigation,
 		topLevelLists;

@@ -1,5 +1,5 @@
-IBSYS.using('features');
-IBSYS.features.Navigation = function(element) {
+SENTIENTBIT.using('features');
+SENTIENTBIT.features.Navigation = function(element) {
 	var navigation,
 		topLevelLists;
 	

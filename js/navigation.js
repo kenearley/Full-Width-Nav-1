@@ -3,7 +3,9 @@ SENTIENTBIT = {
 	features: {}
 };
 
-
+/**
+ *	Sub navigation dropdown for main navigation
+ */
 SENTIENTBIT.features.Navigation = function(element) {
 	var navigation,
 		topLevelLists;

@@ -25,6 +25,10 @@ IBSYS.features.Navigation = function(element) {
 			setTimeout ( function() { YAHOO.util.Dom.removeClass(self, "selected"); }, 500 );
 		}
 	}
+	
+	this.getNavigationElement() {
+		return navigation;
+	};
 
 	init();
 }
